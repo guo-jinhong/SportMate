@@ -1,0 +1,18 @@
+<view class="container">
+  <!-- 个人信息栏（空壳） -->
+  <view class="user-info">
+    <image style="width: 60px; height: 60px; border-radius: 50%;" />
+    <view class="info-right">
+      <view class="nickname">昵称</view>
+      <view class="sport-tag">运动标签 | 会员状态</view>
+    </view>
+    <button class="edit-btn" bindtap="editUserInfo">编辑</button>
+  </view>
+
+  <!-- 服务入口容器（空壳） -->
+  <view class="service-grid">
+    <view class="grid-item" bindtap="gotoMyDynamic">我的动态</view>
+    <view class="grid-item" bindtap="gotoActivity">我的活动</view>
+    <view class="grid-item" bindtap="gotoSetting">设置</view>
+  </view>
+</view>

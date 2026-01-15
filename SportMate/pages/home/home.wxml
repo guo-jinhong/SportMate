@@ -1,0 +1,25 @@
+<view class="map-container">
+  <!-- 地图组件（空壳） -->
+  <map 
+    longitude="" 
+    latitude="" 
+    scale="14" 
+    show-location 
+    style="width: 100%; height: 70vh;"
+  />
+
+  <!-- 筛选栏（空壳） -->
+  <view class="filter-bar">
+    <view class="filter-item" bindtap="openLocationSetting">定位权限</view>
+    <view class="filter-item" bindtap="toggleMapShow">显示设置</view>
+    <button class="match-btn" bindtap="toggleAutoMatch">匹配开关</button>
+  </view>
+
+  <!-- 活动列表容器（空壳） -->
+  <view class="activity-list">
+    <view class="list-title">3km内热门活动</view>
+    <scroll-view scroll-x="true" class="card-scroll">
+      <!-- 后续插入活动卡片组件 -->
+    </scroll-view>
+  </view>
+</view>
