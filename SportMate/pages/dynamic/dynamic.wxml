@@ -1,0 +1,6 @@
+<view class="container">
+  <!-- 动态列表容器（空壳） -->
+  <view class="dynamic-list">
+    <!-- 后续插入动态项组件 -->
+  </view>
+</view>

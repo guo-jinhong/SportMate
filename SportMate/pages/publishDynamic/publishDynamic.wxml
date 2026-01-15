@@ -1,0 +1,11 @@
+<view class="container">
+  <!-- 内容输入框（空壳） -->
+  <textarea 
+    placeholder="分享你的运动动态吧～" 
+    bindinput="onContentInput"
+    style="height: 120px; padding: 10px; border: 1px solid #eee; border-radius: 8px;"
+  />
+
+  <!-- 发布按钮（空壳） -->
+  <button class="button" bindtap="publishDynamic">发布动态</button>
+</view>

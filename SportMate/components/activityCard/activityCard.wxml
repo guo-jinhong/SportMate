@@ -1,0 +1,10 @@
+<view class="activity-card" bindtap="gotoActivityDetail">
+  <!-- 活动封面（空壳） -->
+  <image style="width: 200px; height: 120px; border-radius: 8px;" />
+  <!-- 活动信息（空壳） -->
+  <view class="card-info">
+    <view class="title">活动标题</view>
+    <view class="time-location">时间 | 地点</view>
+    <button class="join-btn">报名</button>
+  </view>
+</view>
